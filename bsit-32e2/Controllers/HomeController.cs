@@ -19,6 +19,8 @@ public class HomeController : Controller
     }
 
     public string HelloWorld() => "Hello World!";
+    public string HelloWorldFromBsitBranch() => "Hello World from BSIT 32E3 Branch!";
+    
 
     public IActionResult Privacy()
     {
