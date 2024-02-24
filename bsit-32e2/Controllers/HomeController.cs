@@ -18,6 +18,8 @@ public class HomeController : Controller
         return View();
     }
 
+    public string HelloWorld() => "Hello World!";
+
     public IActionResult Privacy()
     {
         return View();
